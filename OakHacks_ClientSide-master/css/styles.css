@@ -1,0 +1,191 @@
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#main-background {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/main-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 0px;
+    overflow-y: auto;
+
+}
+
+
+/* --------------General-------------------*/
+.centre-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(190, 217, 209);
+}
+
+/* -------------Reusable form-------------*/
+
+#form-container {
+    height: auto;
+    width: 400px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2rem;
+}
+
+.container h3, .container label {
+    font-size: 1.3rem;
+}
+
+.container input {
+    padding: 5px;
+}
+
+.container table {
+    margin: auto;
+}
+
+/* ------------ Discover page styling ------------------*/
+
+#discover-container {
+    text-align: center;
+    width: 900px;
+    height: 100%;
+    //background-color: white;
+    margin: auto;
+    margin-top: 110px;
+}
+
+#discover-container h1 {
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+#discover-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.title__ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.title__ p {
+    margin: 0;
+}
+
+
+/*discover cards*/
+#card-grid {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 270px;
+    margin: 20px auto;
+    height: 485px;
+    text-align: center;
+    font-family: arial;
+    background-color: #fff;
+}
+
+.card_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 215px;
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card p, .card h3 {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.card .date {
+    color: grey;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+/* ------------background colors---------------------*/
+
+/*
+    **color schema darkest to brightest
+    rgb(29, 97, 122)
+    rgb(97, 194, 162)
+    rgb(190, 217, 209)
+    rgb(200, 232, 215)
+    rgb(219, 239, 225)
+
+*/
+
+.navy_blue {
+    background-color: rgb(29, 97, 122);
+}
+
+
+
+

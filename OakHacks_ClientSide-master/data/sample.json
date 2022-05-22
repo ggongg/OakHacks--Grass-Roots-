@@ -1,0 +1,54 @@
+{
+  "description": "Learn the best way to save time, money, and weight with this meal prepping tutorial",
+  "donation_amount": 45.5,
+  "event_date": "5/5/06",
+  "id": 1,
+  "meeting_link": "www.meetingRus.com",
+  "name": "Meal Prep 101",
+  "user_id": 23
+},
+{
+"description": "Ever want to style while saving money? This thrifting edition shows you how!",
+"donation_amount": 50.0,
+"event_date": "2020/09/14",
+"id": 2,
+"meeting_link": "www.meetingRus.com",
+"name": "Fashion Sense: Thrifting Edition",
+"user_id": 24
+},
+{
+"description": "Are you going back to school? Learn the best way to make the most of the first day.",
+"donation_amount": 20.0,
+"event_date": "2020/09/14",
+"id": 3,
+"meeting_link": "www.meetingRus.com",
+"name": "Back to School Essentials",
+"user_id": 25
+},
+{
+"description": "Learn the tips an tricks of getting around this beautiful rock we call home",
+"donation_amount": 100.0,
+"event_date": "2020/10/04",
+"id": 4,
+"meeting_link": "www.meetingRus.com",
+"name": "Travel Advice from a Nomad",
+"user_id": 26
+},
+{
+"description": "Get the insider knowledge of the 'hidden job market' that makes up 60%+ of hires ",
+"donation_amount": 400.0,
+"event_date": "2020/10/20",
+"id": 5,
+"meeting_link": "www.meetingRus.com",
+"name": "Optimize your LinkedIn",
+"user_id": 27
+},
+{
+"description": "Get up and dance for this energetic dance lesson that will bring you back to the 80's",
+"donation_amount": 80.0,
+"event_date": "2020/11/27",
+"id": 6,
+"meeting_link": "www.meetingRus.com",
+"name": "Disco Fever: Tutorial",
+"user_id": 28
+}

@@ -1,0 +1,50 @@
+#navigation {
+    color: #ffffff;
+    height: 110px;
+    //background-image: linear-gradient( rgba(219, 239, 225, 0.9), rgba(219, 239, 225, 0));
+    //background-color: rgba(219, 239, 225, 1);
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    transition: 0.4s;
+    animation: fadeIn 5s;
+}
+
+nav {
+    height: 100%;
+    width: 1230px;
+    margin: auto;
+    padding: 10px 50px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+#navigation-inner{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 18%;
+}
+
+p {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+p:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#logo-text {
+    font-size: 0.8rem;
+    color: #000;
+}
+
+
